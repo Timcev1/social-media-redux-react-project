@@ -1,7 +1,7 @@
 module Api
   class PostsController < ApplicationController
     def index
-      render json: Event.all
+      render json: Post.all
     end
   end
 end
